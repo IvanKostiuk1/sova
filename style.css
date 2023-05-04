@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+/*Ändrade standardinställningar och fonten*/
+
+h1{
+    font-size: 46px;
+    background-color: rgb(220, 230, 255);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+/*Styling av rubrik 1 samt dess bakgrund*/
+
+#varforviktig,
+#hurforbattrar{
+    width: 80%;
+    min-width: 250px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+/*Styling och placering av bilderna längst upp*/
+
+ul{
+    list-style: none; 
+    padding-bottom: 5%;
+}
+/*Styling av dropdown-menyn*/
+
+nav{
+    margin-bottom: 5%;
+    background-color:rgb(220, 230, 255);
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-bottom: 4px;
+}
+/*Styling och placering av dropdown-menyn*/
+
+nav p{
+    font-size: 20px;
+}
+/*Styling av 'Sidans innehåll'*/
+
+.dropdown{
+    background-color:rgb(220, 230, 255);
+    border-color: transparent;
+    font-size: 18px;
+    margin-right: 170px;
+}
+/*Styling samt placering av knappen med pilen ner/upp*/
+
+li a{
+    font-size: 18px;
+}
+/*Styling av punkter i dropdown-menyn*/
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+/*Styling av länkarna till den första/andra artikeln*/
+
+a:hover{
+    color:rgb(110, 150, 255);
+}
+/*Länkarna ändrar färg*/
+
+li a:hover{
+    color: black;
+}
+/*Länkarna i dropdown-menyn ändrar inte färg*/
+
+#linjetop, 
+#linjebot{
+    background-color: rgb(110, 150, 255);
+    padding-right: 100%;
+    padding-bottom: 5px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/*Styling och placering av linjerna ovanför och under huvudtexten*/
+
+.rubriker{
+    font-size: 26px;
+    color:rgb(50, 50, 50)
+}
+/*Styling av rubrikerna i huvudtexten*/
+
+.texter{
+    font-size: 18px;
+    color: rgb(80, 80, 80);
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+/*Styling av Lorem Ipsum texten i huvudtexten*/
+
+#text5{
+    margin-bottom: 0;
+}
+/*Sista texten har ingen margin, då det finns ingen text under som stör*/
+
+.rubriker,
+.texter{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/*Placering av huvudtexten*/
+
+.textmedbild{
+    margin-right: 30%;
+}
+/*Några texter har större plats för en bild*/
+
+.bilder{
+    width: 25%;
+    margin-right: 3%;
+}
+/*Styling av bilder vid huvudtexten*/
+
+footer{
+    background-color:rgb(220, 230, 255);
+    padding: 50px;
+}
+/*Styling av footer*/
+
+footer p{
+    font-size: 24px;
+}
+/*Styling av texten i footer*/
+
+@media screen and (max-width: 950px){
+    h1{
+        font-size: 5vw;
+    }
+    /*Rubrik 1 är responsiv på mindre skärmar*/
+
+    li a{
+        font-size: 16px;
+    }
+    /*Punkter i dropdown-menyn är mindre*/
+
+    nav p{
+        font-size: 18px;
+    }
+    /*'Sidans innehåll' är mindre*/
+
+    .dropdown{
+        font-size: 16px;
+        margin-right: 150px;
+    }
+    /*Pilen ner/upp är mindre*/
+
+    .bilder{
+        align-self: end;
+        justify-self: center;
+        margin-right: 0;
+        width: 40%;
+        min-width: 250px;
+        margin-bottom: 5%;
+    }
+    /*På mindre skärmar hamnar bilder vid huvudtexten mellan olika stycken istället för till höger av dem*/
+
+    .textmedbild{
+        margin-right: 20%;
+        margin-bottom: 35% !important;
+    }
+    /*Texter som hade extra plats för en bild har det under dem istället*/
+}
+
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 6vw;
+    }
+
+    .rubriker,
+    .texter{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    nav{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    a{
+        font-size: 20px;
+    }
+
+    .rubriker{
+        font-size: 22px;
+    }
+
+    .texter{
+        margin-top: 40px;
+    }
+
+    .textmedbild{
+        margin-bottom: 260px !important;
+    }
+
+    .bilder{
+        margin-bottom: 10%;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,96 @@
+body{
+    display: grid;
+    grid-template: auto / 2fr repeat(4, 1fr) 2fr;
+}
+
+h1{
+    grid-area: 1 / 1 / 2 / -1;
+    display: flex;
+    justify-content: center;
+}
+
+#varforviktig,
+#hurforbattrar{
+    grid-area: 2 / 2 / 3 / 6;
+    justify-self: center;
+}
+
+.show{
+    display:block;
+}
+
+ul{
+    display: none;
+}
+
+nav{
+    grid-area: 3 / 2 / 4 / 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown{
+    position: absolute;
+}
+
+a{
+    grid-area: 4 / 2 / 5 / 6;
+}
+
+#linjetop{
+    grid-area: 5 / 2 / 6 / 6;
+}
+
+#rubrik1,
+#text1{
+    grid-area: 6 / 1 / 7 / -1;
+}
+
+#rubrik2,
+#text2{
+    grid-area: 7 / 1 / 8 / -1;
+}
+
+#koncentration{
+    grid-area: 7 / 1 / 8 / -1;
+}
+
+#rubrik3,
+#text3{
+    grid-area: 8 / 1 / 9 / -1;
+}
+
+#trana{
+    grid-area: 8 / 1 / 9 / -1;
+}
+
+#rubrik4,
+#text4{
+    grid-area: 9 / 1 / 10 / -1;
+}
+
+#stress{
+    grid-area: 9 / 1 / 10 / -1;
+}
+
+#rubrik5,
+#text5{
+    grid-area: 10 / 1 / 11 / -1;
+}
+
+#alkohol{
+    grid-area: 10 / 1 / 11 / -1;
+}
+
+.bilder{
+    justify-self: end;
+}
+
+#linjebot{
+    grid-area: 11 / 2 / 12 / 6;
+}
+
+footer{
+    grid-area: 12 / 1 / 13 / -1;
+}
