@@ -174,25 +174,30 @@ footer p{
     h1{
         font-size: 6vw;
     }
+    /*Rubrik 1 är lite större på ännu mindre skärmar*/
 
     .rubriker,
     .texter{
         margin-left: 7%;
         margin-right: 7%;
     }
+    /*Huvudtexten har mindre avstånd från sidorna på mobilskärmar*/
 
     nav{
         margin-left: 0;
         margin-right: 0;
     }
+    /*Nav tar hela platsen i sin grid ruta*/
 
     a{
         font-size: 20px;
     }
+    /*Länkarna är mindre*/
 
     .rubriker{
         font-size: 22px;
     }
+    /*Rubrikerna i huvudtexten är mindre*/
 
     .texter{
         margin-top: 40px;
