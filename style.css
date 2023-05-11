@@ -47,21 +47,23 @@ nav p{
     background-color:rgb(220, 230, 255);
     border-color: transparent;
     font-size: 18px;
-    margin-right: 170px;
+    margin-right: 180px;
 }
 /*Styling samt placering av knappen med pilen ner/upp*/
-
-li a{
-    font-size: 18px;
-}
-/*Styling av punkter i dropdown-menyn*/
 
 a{
     font-size: 24px;
     text-decoration: none;
     color: black;
+    margin-left: 20%;
 }
 /*Styling av länkarna till den första/andra artikeln*/
+
+li a{
+    font-size: 18px;
+    margin-left: 0;
+}
+/*Styling och placering av punkter i dropdown-menyn*/
 
 a:hover{
     color:rgb(110, 150, 255);
@@ -131,6 +133,11 @@ footer p{
 }
 /*Styling av texten i footer*/
 
+footer a{
+    margin-left: 0;
+}
+/*Tar bort margin-left: 20%*/
+
 @media screen and (max-width: 950px){
     h1{
         font-size: 5vw;
@@ -149,7 +156,7 @@ footer p{
 
     .dropdown{
         font-size: 16px;
-        margin-right: 150px;
+        margin-right: 160px;
     }
     /*Pilen ner/upp är mindre*/
 
