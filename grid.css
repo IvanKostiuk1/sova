@@ -2,26 +2,31 @@ body{
     display: grid;
     grid-template: auto / repeat(4, 2fr);
 }
+/*Grid inställningar*/
 
 h1{
     grid-area: 1 / 1 / 2 / -1;
     display: flex;
     justify-content: center;
 }
+/*Placering av huvudrubriken*/
 
 #varforviktig,
 #hurforbattrar{
     grid-area: 2 / 2 / 3 / 4;
     justify-self: center;
 }
+/*Placering av bilderna längst upp*/
 
 .show{
     display:block;
 }
+/*Nödvändig CSS för dropdown-menyn*/
 
 ul{
     display: none;
 }
+/*Nödvändig CSS för dropdown-menyn*/
 
 nav{
     grid-area: 3 / 2 / 4 / 4;
@@ -29,68 +34,84 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+/*Placering av dropdown-menyn*/
 
 .dropdown{
     position: absolute;
 }
+/*Pil-knappen*/
 
 a{
     grid-area: 4 / 1 / 5 / -1;
 }
+/*Placering av länken till andra sidan*/
 
 #linjetop{
     grid-area: 5 / 2 / 6 / 4;
 }
+/*Placering av linjen ovanför huvudtexten*/
 
 #rubrik1,
 #text1{
     grid-area: 6 / 1 / 7 / -1;
 }
+/*Placering av stycket 1*/
 
 #rubrik2,
 #text2{
     grid-area: 7 / 1 / 8 / -1;
 }
+/*Placering av stycket 2*/
 
 #koncentration{
     grid-area: 7 / 1 / 8 / -1;
 }
+/*Placering av bilden till sidan*/
 
 #rubrik3,
 #text3{
     grid-area: 8 / 1 / 9 / -1;
 }
+/*Placering av stycket 3*/
 
 #trana{
     grid-area: 8 / 1 / 9 / -1;
 }
+/*Placering av bilden till sidan*/
 
 #rubrik4,
 #text4{
     grid-area: 9 / 1 / 10 / -1;
 }
+/*Placering av stycket 4*/
 
 #stress{
     grid-area: 9 / 1 / 10 / -1;
 }
+/*Placering av bilden till sidan*/
 
 #rubrik5,
 #text5{
     grid-area: 10 / 1 / 11 / -1;
 }
+/*Placering av stycket 5*/
 
 #alkohol{
     grid-area: 10 / 1 / 11 / -1;
 }
+/*Placering av bilden till sidan*/
 
 .bilder{
     justify-self: end;
 }
+/*Placering av bilder till sidan*/
 
 #linjebot{
     grid-area: 11 / 2 / 12 / 4;
 }
+/*Placering av linjen under huvudtexten*/
 
 footer{
     grid-area: 12 / 1 / 13 / -1;
 }
+/*Placering av footer*/

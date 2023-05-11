@@ -157,6 +157,7 @@ footer a{
     .dropdown{
         font-size: 16px;
         margin-right: 160px;
+        color: black;
     }
     /*Pilen ner/upp är mindre*/
 
@@ -190,16 +191,23 @@ footer a{
     }
     /*Huvudtexten har mindre avstånd från sidorna på mobilskärmar*/
 
+    a{
+        margin-left: 7%;
+        font-size: 20px;
+    }
+    /*Länkarna är mindre, samt har mindre margin*/
+
+    li a,
+    footer a{
+        margin-left: 0;
+    }
+    /*Tar bort margin-left: 7%*/
+
     nav{
         margin-left: 0;
         margin-right: 0;
     }
     /*Nav tar hela platsen i sin grid ruta*/
-
-    a{
-        font-size: 20px;
-    }
-    /*Länkarna är mindre*/
 
     .rubriker{
         font-size: 22px;
@@ -209,16 +217,20 @@ footer a{
     .texter{
         margin-top: 40px;
     }
+    /*Mindre avstånd mellan rubriker och texten*/
 
     .textmedbild{
         margin-bottom: 260px !important;
     }
+    /*Plats för bilderna att hamna under styckena blir fixerat*/
 
     .bilder{
         margin-bottom: 10%;
     }
+    /*Avstånd mellan bilderna och nästa stycken ökar*/
 
     footer p{
         font-size: 20px;
     }
+    /*Mindre font i footer*/
 }
