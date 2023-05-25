@@ -175,7 +175,7 @@ footer a{
         margin-right: 20%;
         margin-bottom: 35% !important;
     }
-    /*Texter som hade extra plats för en bild har det under dem istället*/
+    /*Texter som hade extra plats för en bild har det under dem istället. !important för att margin-bottom: 0 ska inte gälla på #text5 som prioriteras då det är en id*/
 }
 
 @media screen and (max-width: 700px){
@@ -222,7 +222,7 @@ footer a{
     .textmedbild{
         margin-bottom: 260px !important;
     }
-    /*Plats för bilderna att hamna under styckena blir fixerat*/
+    /*Plats för bilderna att hamna under styckena blir fixerat. !important för att margin-bottom: 0 ska inte gälla på #text5 som prioriteras då det är en id*/
 
     .bilder{
         margin-bottom: 10%;

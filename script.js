@@ -14,6 +14,7 @@ function myFunction() {
       }
     }
   }
+/*Dropdown-menyn*/
 
   function vändPilen(idElement) {
     var element = document.getElementById('pil' + idElement);
@@ -24,3 +25,4 @@ function myFunction() {
         }
     }
 }
+/*Pilen ändrar riktning när man trycker på den*/
